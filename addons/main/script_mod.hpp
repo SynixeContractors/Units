@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX synixe
-#define PREFIX units
+#define PREFIX synixeunits
 #define SUBPREFIX addons
 
 #include "script_version.hpp"
