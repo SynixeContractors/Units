@@ -10,12 +10,12 @@ class CfgVehicles {
         identityTypes[] = {"LanguageENGB_F", "Head_NATO", "CUP_G_ARMY"};
         weapons[] = {"CUP_arifle_L85A2", "Throw", "Put"};
         respawnWeapons[] = {"CUP_arifle_L85A2", "Throw", "Put"};
-        magazines[] = {"CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_HandGrenade_L109A1_HE", "CUP_HandGrenade_L109A1_HE", "SmokeShell"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_30Rnd_556x45_Stanag_L85", "CUP_HandGrenade_L109A1_HE", "CUP_HandGrenade_L109A1_HE", "SmokeShell"};
+        magazines[] = {R6("CUP_30Rnd_556x45_Stanag_L85"), R2("CUP_HandGrenade_L109A1_HE"), "SmokeShell"};
+        respawnMagazines[] = {R6("CUP_30Rnd_556x45_Stanag_L85"), R2("CUP_HandGrenade_L109A1_HE"), "SmokeShell"};
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_PVS7_Hide"};
         respawnLinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_PVS7_Hide"};
-        Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
-        RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
+        items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
+        respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
         vehicleClass = "CUP_I_Men_RACS_WDL";
         model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
         uniformClass = QCLASS(wdl);
@@ -43,8 +43,8 @@ class CfgVehicles {
         backpack = "CUP_B_RACS_Backpack_Medic";
         role = "CombatLifeSaver";
         attendant = 1;
-        Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
-        RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
+        items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
+        respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
         editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_Medic_wdl.jpg";
     };
 
@@ -57,8 +57,8 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_Engineer_wdl.jpg";
-        Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
-        RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
+        items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
+        respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
     };
 
     class CUP_I_RACS_Pilot;
