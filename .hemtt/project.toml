@@ -1,0 +1,19 @@
+name = "Synixe Units"
+prefix = "units"
+mainprefix = "synixe"
+
+[version]
+git_hash = 0
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3
+    "463939057", # ACE3
+    "497660133", # CUP Weapons
+    "497661914", # CUP Units
+]
+
+[files]
+include = [
+    "abramia_co.paa"
+]
