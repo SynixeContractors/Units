@@ -42,21 +42,12 @@
 #define R7(ITEM) ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM
 #define R8(ITEM) ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM
 
-#define GROUP_UNIT(UNIT,SIDE) __GROUP_UNIT(__COUNTER__, UNIT, SIDE)
+#define GROUP_UNIT(UNIT,SIDE) __GROUP_UNIT(__COUNTER__,UNIT,SIDE)
 
 #define __GROUP_UNIT(COUNTER, UNIT, SIDE) \
     class unit##COUNTER { \
         vehicle = #UNIT; \
         side = SIDE; \
-        #if COUNTER == 0 \
-        rank = "SERGEANT"; \
-        #else \
-        #if COUNTER == 1 \
-        rank = "CORPORAL"; \
-        #else \
-        rank = "PRIVATE"; \
-        #endif \
-        #endif \
         position[] = { \
             QUOTE(5 * floor ((COUNTER + 1) / 2) * (-1 ^ (COUNTER + 1))), \
             QUOTE(-5 * floor ((COUNTER + 1) / 2)), \

@@ -6,11 +6,13 @@ mainprefix = "synixe"
 git_hash = 0
 
 [hemtt.launch]
+dlc = ["ws"]
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE3
     "497660133", # CUP Weapons
     "497661914", # CUP Units
+    "2869054457", # [WS] Low Visibility Attire
 ]
 
 [files]
