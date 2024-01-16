@@ -143,8 +143,8 @@ class CLASS(B_Sniper_F): CLASS(B_Rifleman_F) {
 	displayname = "Sniper";
 	weapons[] = {"srifle_DMR_05_Kahles", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
 	respawnWeapons[] = {"srifle_DMR_05_Kahles", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
-	magazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R("SmokeShell")};
-	respawnMagazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R("SmokeShell")};
+	magazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
+	respawnMagazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
 	linkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	uniformClass = "CUP_I_B_PMC_Unit_33";
