@@ -23,8 +23,6 @@ class arifle_AK12U_F;
 			};
 		};
 	};
-
-};
 // Sniper Cyrus Kahles
 class srifle_DMR_05_blk_F;
 	class srifle_DMR_05_Kahles : srifle_DMR_05_blk_F {
@@ -36,3 +34,4 @@ class srifle_DMR_05_blk_F;
 			};
 		};
 	};
+};
