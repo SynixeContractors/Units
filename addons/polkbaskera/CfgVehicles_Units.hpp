@@ -41,7 +41,7 @@ class CLASS(B_ATRifleman_F): CLASS(B_Rifleman_F) {
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_29";
-	backpack = QCLASS(B_Carryall_cbr_AT);
+	backpack = QCLASS(B_Carryall_green_F_AT);
 }; // not done -- Backpack needs items
 
 class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {

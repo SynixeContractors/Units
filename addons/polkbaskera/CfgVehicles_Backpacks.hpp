@@ -1,5 +1,5 @@
-class B_Carryall_cbr;
-class CLASS(B_Carryall_cbr_AT): B_Carryall_cbr {
+class B_Carryall_green_F;
+class CLASS(B_Carryall_green_F_AT): B_Carryall_green_F {
 	dlc = QUOTE(PREFIX); 
 	scope = 1; 
 	scopeCurator = 1;
