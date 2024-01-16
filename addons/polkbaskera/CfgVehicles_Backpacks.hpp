@@ -14,7 +14,7 @@ class CLASS(B_Carryall_green_F_AT): B_Carryall_green_F {
 }; // RPG32 AT Carryall Pack
 
 class B_Carryall_green_F;
-class CLASS(B_Carryall_green_F_ENG): B_Carryall_green_F {
+class CLASS(B_Carryall_green_F_DMO): B_Carryall_green_F {
 	dlc = QUOTE(PREFIX); 
 	scope = 1; 
 	scopeCurator = 1;
@@ -43,7 +43,7 @@ class CLASS(B_Carryall_green_F_ENG): B_Carryall_green_F {
 
 		class _xx_ClaymoreDirectionalMine_Remote_Mag {
 			magazine = "ClaymoreDirectionalMine_Remote_Mag";
-			count = 1;
+			count = 4;
 		};
 	};
 }; // Explosive Specialist Carryall Pack
@@ -64,7 +64,16 @@ class CLASS(B_Kitbag_rgr_CLS): B_Kitbag_rgr {
 		magazine = "FirstAidKit";
 		count = 10;
 		};
-
 	};
+	class TransportMagazines {};
+}; // Medic Kitbag
+
+class B_LegStrapBag_black_F;
+class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
+	dlc = QUOTE(PREFIX); 
+	scope = 1; 
+	scopeCurator = 1;
+	class TransportWeapons {};
+	class TransportItems {};
 	class TransportMagazines {};
 }; // Medic Kitbag

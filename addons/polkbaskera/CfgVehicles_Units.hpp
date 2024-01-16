@@ -66,7 +66,20 @@ class CLASS(B_DemolitionSpecialist_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	backpack = QCLASS(B_Carryall_green_F_ENG);
+	backpack = QCLASS(B_Carryall_green_F_DMO);
+}; // not done -- Backpack needs items
+
+class CLASS(B_Mechanic_F): CLASS(B_Rifleman_F) {
+	displayname = "Mechanic";
+	icon = "iconManEngineer";
+	role = "Engineer";
+	weapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
+	magazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell"};
+	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell"};
+	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	backpack = QCLASS(B_LegStrapBag_black_F_ENG);
 }; // not done -- Backpack needs items
 
 class CLASS(B_CombatLifeSaver_F): CLASS(B_Rifleman_F) {
