@@ -8,8 +8,8 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
 	faction = QCLASS(B_PolkBaskera);
 	weapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
 	respawnWeapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
-	magazines[] = {R6("30Rnd_762x39_Mag_Green_F"), "16Rnd_9x21_Mag","HandGrenade", R2("SmokeShell")};
-	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Green_F"), "16Rnd_9x21_Mag","HandGrenade", R2("SmokeShell")};
+	magazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
+	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_headset_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_headset_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
@@ -34,14 +34,14 @@ class CLASS(B_ATRifleman_F): CLASS(B_Rifleman_F) {
 	role = "MissileSpecialist";
 	weapons[] = {"arifle_AKM_F", "launch_RPG32_green_F", "Throw", "Put"};
 	respawnWeapons[] = {"arifle_AKM_F", "launch_RPG32_green_F", "Throw", "Put"};
-	magazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG32_F"), R2("RPG32_HE_F"), R2("SmokeShell")};
-	respawnMagazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG32_F"), R2("RPG32_HE_F"), R2("SmokeShell")};
+	magazines[] = {R5("30Rnd_762x39_Mag_Green_F"), "RPG32_F", R2("RPG32_HE_F"), R2("SmokeShell")};
+	respawnMagazines[] = {R5("30Rnd_762x39_Mag_Green_F"), "RPG32_F", R2("RPG32_HE_F"), R2("SmokeShell")};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_29";
-	Backpack = "B_Carryall_cbr_AT";
+	backpack = QCLASS(B_Carryall_cbr_AT);
 }; // not done -- Backpack needs items
 
 class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
@@ -66,6 +66,7 @@ class CLASS(B_DemolitionSpecialist_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	backpack = QCLASS(B_Carryall_green_F_ENG);
 }; // not done -- Backpack needs items
 
 class CLASS(B_CombatLifeSaver_F): CLASS(B_Rifleman_F) {
@@ -77,7 +78,7 @@ class CLASS(B_CombatLifeSaver_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	Backpack = "B_Kitbag_rgr";
+	backpack = QCLASS(B_Kitbag_rgr_CLS);
 }; // not done -- Backpack needs items
 
 class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
