@@ -1,5 +1,5 @@
-	class B_AssaultPack_rgr;
-	class CLASS(B_AssaultPack_rgr_AT): B_AssaultPack_rgr {
+	class B_Carryall_cbr;
+	class CLASS(B_Carryall_cbr_AT): B_Carryall_cbr {
 		class TransportWeapons {};
 		class TransportItems {};
 		class TransportMagazines {RPG7_F,2};

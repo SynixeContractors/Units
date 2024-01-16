@@ -32,16 +32,16 @@ class CLASS(B_ATRifleman_F): CLASS(B_Rifleman_F) {
 	displayname = "AT Rifleman";
 	icon = "iconManAT";
 	role = "MissileSpecialist";
-	weapons[] = {"arifle_AKM_F", "launch_RPG7_F", "Throw", "Put"};
-	respawnWeapons[] = {"arifle_AKM_F", "launch_RPG7_F", "Throw", "Put"};
-	magazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG7_F"), R2("SmokeShell")};
-	respawnMagazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG7_F"), R2("SmokeShell")};
+	weapons[] = {"arifle_AKM_F", "launch_RPG32_green_F", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AKM_F", "launch_RPG32_green_F", "Throw", "Put"};
+	magazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG32_F"), R2("RPG32_HE_F"), R2("SmokeShell")};
+	respawnMagazines[] = {R5("30Rnd_762x39_Mag_Green_F"), R3("RPG32_F"), R2("RPG32_HE_F"), R2("SmokeShell")};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_29";
-	Backpack = "B_AssaultPack_rgr_AT";
+	Backpack = "B_Carryall_cbr_AT";
 }; // not done -- Backpack needs items
 
 class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
@@ -77,7 +77,7 @@ class CLASS(B_CombatLifeSaver_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		Backpack = "B_Kitbag_rgr";
+	Backpack = "B_Kitbag_rgr";
 }; // not done -- Backpack needs items
 
 class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
@@ -90,4 +90,37 @@ class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R4("75rnd_762x39_AK12_Mag_Tracer_F"), "HandGrenade", R2("SmokeShell")};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+};
+
+class CLASS(B_Grenadier_F): CLASS(B_Rifleman_F) {
+	displayname = "Grenadier";
+	role = "Grenadier";
+	weapons[] = {"arifle_AK12_GL_F", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AK12_GL_F", "Throw", "Put"};
+	magazines[] = {R6("30Rnd_762x39_AK12_Mag_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
+	respawnMagazines[] = {R6("30Rnd_762x39_AK12_Mag_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
+	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	uniformClass = "CUP_I_B_PMC_Unit_33";
+};
+
+class CLASS(B_HeliPilot_F): CLASS(B_Rifleman_F) {
+	displayname = "Helicopter Pilot";
+	weapons[] = {"arifle_AKS_F", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
+	magazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	respawnMagazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	linkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_PilotHelmetHeli_O","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_PilotHelmetHeli_O","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+};
+
+class CLASS(B_Crewman_F): CLASS(B_Rifleman_F) {
+	displayname = "Crewman";
+	role = "Crewman";
+	weapons[] = {"arifle_AKS_F", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
+	magazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "HandGrenade"};
+	respawnMagazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "HandGrenade"};
+	linkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_Tank_eaf_F","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_Tank_eaf_F","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 };
