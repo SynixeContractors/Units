@@ -4,7 +4,7 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
 	scope = 2;
 	curatorScope = 2;
 	genericNames = "RussianMen";
-	identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","Head_Asian","G_RUS_SF"};
+	identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch", "G_RUS_SF"};
 	faction = QCLASS(B_PolkBaskera);
 	weapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
 	respawnWeapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
@@ -20,10 +20,10 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
 class CLASS(B_TeamLeader_F): CLASS(B_Rifleman_F) {
 	displayname = "Team Leader";
 	icon = "iconManLeader";
-	weapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-	respawnWeapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-	magazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
-	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	weapons[] = {"arifle_AK12U_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AK12U_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
+	magazines[] = {R6("30Rnd_762x39_AK12_Mag_Tracer_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	respawnMagazines[] = {R6("30Rnd_762x39_AK12_Mag_Tracer_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_1PN138_Hide"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_1PN138_Hide"};
 };
