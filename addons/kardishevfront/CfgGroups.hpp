@@ -8,10 +8,10 @@ class CfgGroups {
 					name = "Sentry";
 					side = 0;
 					faction = QCLASS(B_KardishevFront);
-					icon = "\a3\ui_f\data\map\markers\csat\n_inf.paa";
+					icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
 					__COUNTER_RESET__
-					GROUP_UNIT(CLASS(B_TeamLeader_F),1);
-					GROUP_UNIT(CLASS(B_Rifleman_F),1);
+					GROUP_UNIT(CLASS(O_TeamLeader_F),1);
+					GROUP_UNIT(CLASS(O_Rifleman_F),1);
 				};
 			};
 		};

@@ -13,6 +13,7 @@ class CfgPatches {
         requiredAddons[] = {
             "synixeunits_main",
             "data_f_lxWS_Loadorder",
+            "milgp_uniforms_cfg",
         };
         authors[] = {"Thomas Watson"};
         VERSION_CONFIG;
@@ -30,6 +31,13 @@ class CfgFactionClasses {
         priority = 0;
     };
 };
+
+class CfgEditorSubcategories {
+    class CLASS(men_saboteur) {
+        displayName = "Men (Saboteur)";
+    };
+};
+
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"
 #include "CfgWeapons.hpp"

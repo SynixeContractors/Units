@@ -11,4 +11,16 @@ class srifle_DMR_06_camo_F;
 			};
 		};
 	};
+
+class arifle_AK12U_F;
+	class arifle_AK12U_Supp: arifle_AK12U_F {
+		scope = 1;
+		class LinkedItems {
+			class LinkedItemsMuzzle {
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_B";
+			};
+		};
+	};
+
 };

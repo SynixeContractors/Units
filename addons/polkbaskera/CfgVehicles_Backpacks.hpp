@@ -10,8 +10,12 @@ class CLASS(B_Carryall_green_F_AT): B_Carryall_green_F {
 			magazine = "RPG32_F";
 			count = 2;
 		};
+		class _xx_RPG32_HE_F {
+			magazine = "RPG32_HE_F";
+			count = 2;
+		};
 	};
-}; // RPG32 AT Carryall Pack
+};
 
 class B_Carryall_green_F;
 class CLASS(B_Carryall_green_F_DMO): B_Carryall_green_F {
@@ -46,7 +50,7 @@ class CLASS(B_Carryall_green_F_DMO): B_Carryall_green_F {
 			count = 4;
 		};
 	};
-}; // Explosive Specialist Carryall Pack
+};
 
 class B_Kitbag_rgr;
 class CLASS(B_Kitbag_rgr_CLS): B_Kitbag_rgr {
@@ -66,7 +70,7 @@ class CLASS(B_Kitbag_rgr_CLS): B_Kitbag_rgr {
 		};
 	};
 	class TransportMagazines {};
-}; // Medic Kitbag
+};
 
 class B_LegStrapBag_black_F;
 class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
@@ -76,4 +80,4 @@ class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
 	class TransportWeapons {};
 	class TransportItems {};
 	class TransportMagazines {};
-}; // Medic Kitbag
+};

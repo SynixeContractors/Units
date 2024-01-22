@@ -11,3 +11,9 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+class CfgEditorSubcategories {
+    class CLASS(men_winter) {
+        displayName = "Men (Winter)";
+    };
+};

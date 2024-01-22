@@ -28,8 +28,8 @@ class CLASS(B_TeamLeader_F): CLASS(B_Rifleman_F) {
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_1PN138_Hide"};
 };
 
-class CLASS(B_ATRifleman_F): CLASS(B_Rifleman_F) {
-	displayname = "AT Rifleman";
+class CLASS(B_Rifleman_AT_F): CLASS(B_Rifleman_F) {
+	displayname = "Rifleman (AT)";
 	icon = "iconManAT";
 	role = "MissileSpecialist";
 	weapons[] = {"arifle_AKM_F", "launch_RPG32_green_F", "Throw", "Put"};
@@ -69,8 +69,8 @@ class CLASS(B_DemolitionSpecialist_F): CLASS(B_Rifleman_F) {
 	backpack = QCLASS(B_Carryall_green_F_DMO);
 }; // not done -- Backpack needs items
 
-class CLASS(B_Mechanic_F): CLASS(B_Rifleman_F) {
-	displayname = "Mechanic";
+class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
+	displayname = "Engineer";
 	icon = "iconManEngineer";
 	role = "Engineer";
 	weapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
@@ -82,7 +82,7 @@ class CLASS(B_Mechanic_F): CLASS(B_Rifleman_F) {
 	backpack = QCLASS(B_LegStrapBag_black_F_ENG);
 }; // not done -- Backpack needs items
 
-class CLASS(B_CombatLifeSaver_F): CLASS(B_Rifleman_F) {
+class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
 	displayname = "Combat Life Saver";
 	icon = "iconManMedic";
 	weapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
