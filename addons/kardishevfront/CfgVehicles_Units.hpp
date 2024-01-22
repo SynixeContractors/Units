@@ -1,5 +1,6 @@
-class O_Soldier_F;
-class CLASS(O_Rifleman_F): O_Soldier_F {
+class TACU_Main_U_OPFOR_Soldier_Base;
+class CLASS(O_Rifleman_F): TACU_Main_U_OPFOR_Soldier_Base {
+	displayname = "Rifleman";
 	dlc = QUOTE(prefix);
 	scope = 2;
 	curatorScope = 2;

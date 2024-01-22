@@ -14,6 +14,7 @@ class CfgPatches {
             "synixeunits_main",
             "data_f_lxWS_Loadorder",
             "milgp_uniforms_cfg",
+            "tacu_main",
         };
         authors[] = {"Thomas Watson"};
         VERSION_CONFIG;
