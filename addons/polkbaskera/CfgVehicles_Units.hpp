@@ -10,8 +10,8 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
 	respawnWeapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
 	magazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
 	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
-	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_headset_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_headset_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_34";
@@ -50,13 +50,13 @@ class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
 	weapons[] = {"srifle_DMR_Burris", "Binocular", "Throw", "Put"};
 	respawnWeapons[] = {"srifle_DMR_Burris", "Binocular", "Throw", "Put"};
 	magazines[] = {R6("20Rnd_762x51_Mag_blk_lxWS"),"HandGrenade", "SmokeShell"};
-	respawnMagazines[] = {R6("20Rnd_762x51_Mag_blk_lxWS"), "16Rnd_9x21_Mag","HandGrenade", "SmokeShell"};
+	respawnMagazines[] = {R6("20Rnd_762x51_Mag_blk_lxWS"),"HandGrenade", "SmokeShell"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles","G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	uniformClass = "CUP_I_B_PMC_Unit_30";
 };
 
-class CLASS(B_DemolitionSpecialist_F): CLASS(B_Rifleman_F) {
+class CLASS(B_Soldier_exp_F): CLASS(B_Rifleman_F) {
 	displayname = "Demolitions Specialist";
 	icon = "iconManExplosive";
 	role = "Sapper";
@@ -115,7 +115,7 @@ class CLASS(B_Grenadier_F): CLASS(B_Rifleman_F) {
 	respawnMagazines[] = {R6("30Rnd_762x39_AK12_Mag_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	uniformClass = "CUP_I_B_PMC_Unit_33";
+	uniformClass = "CUP_I_B_PMC_Unit_34";
 };
 
 class CLASS(B_HeliPilot_F): CLASS(B_Rifleman_F) {
@@ -141,10 +141,21 @@ class CLASS(B_Crewman_F): CLASS(B_Rifleman_F) {
 
 class CLASS(B_Sniper_F): CLASS(B_Rifleman_F) {
 	displayname = "Sniper";
-	weapons[] = {"srifle_DMR_05_Kahles", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
-	respawnWeapons[] = {"srifle_DMR_05_Kahles", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
+	weapons[] = {"srifle_DMR_05_KHS", "hgun_Rook40_F", "Throw", "Put"};
+	respawnWeapons[] = {"srifle_DMR_05_KHS", "hgun_Rook40_F", "Throw", "Put"};
 	magazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
 	respawnMagazines[] = {R7("10Rnd_93x64_DMR_05_Mag"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
+	linkedItems[] = {"V_SmershVest_01_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"V_SmershVest_01_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	uniformClass = "CUP_I_B_PMC_Unit_33";
+};
+
+class CLASS(B_Spotter_F): CLASS(B_Rifleman_F) {
+	displayname = "Spotter";
+	weapons[] = {"arifle_AK12U_Elcan", "Rangefinder", "Throw", "Put"};
+	respawnWeapons[] = {"arifle_AK12U_Elcan", "Rangefinder", "Throw", "Put"};
+	magazines[] = {R7("30Rnd_762x39_Mag_Green_F"), R2("HandGrenade"), R2("SmokeShell")};
+	respawnMagazines[] = {R7("30Rnd_762x39_Mag_Green_F"), R2("HandGrenade"), R2("SmokeShell")};
 	linkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	respawnLinkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	uniformClass = "CUP_I_B_PMC_Unit_33";

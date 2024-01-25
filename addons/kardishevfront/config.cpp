@@ -22,7 +22,7 @@ class CfgPatches {
 };
 
 class CfgFactionClasses {
-    class CLASS(B_KardishevFront) {
+    class CLASS(O_KardishevFront) {
         scope = 2;
         curatorScope = 2;
         displayName = "Kardishev Front";
