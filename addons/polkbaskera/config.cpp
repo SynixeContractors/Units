@@ -31,6 +31,7 @@ class CfgFactionClasses {
         priority = 1;
     };
 };
+
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"
 #include "CfgWeapons.hpp"

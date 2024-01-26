@@ -1,83 +1,51 @@
 class B_Carryall_green_F;
 class CLASS(B_Carryall_green_F_AT): B_Carryall_green_F {
-	dlc = QUOTE(PREFIX); 
-	scope = 1; 
-	scopeCurator = 1;
-	class TransportWeapons {};
-	class TransportItems {};
-	class TransportMagazines {
-		class _xx_RPG32_F {
-			magazine = "RPG32_F";
-			count = 2;
-		};
-		class _xx_RPG32_HE_F {
-			magazine = "RPG32_HE_F";
-			count = 2;
-		};
-	};
+    dlc = QUOTE(PREFIX); 
+    scope = 1; 
+    scopeCurator = 1;
+    class TransportWeapons {};
+    class TransportItems {};
+    class TransportMagazines {
+        ADDMAG(RPG32_F,2);
+        ADDMAG(RPG32_HE_F,2);
+    };
 };
 
 class B_Carryall_green_F;
 class CLASS(B_Carryall_green_F_DMO): B_Carryall_green_F {
-	dlc = QUOTE(PREFIX); 
-	scope = 1; 
-	scopeCurator = 1;
-	class TransportWeapons {};
-	class TransportItems {
-		class _xx_ACE_DefusalKit {
-			item = "ACE_DefusalKit";
-			count = 1;
-		};
-
-		class _xx_ACE_M26_Clacker {
-			item = "ACE_M26_Clacker";
-			count = 1;
-		};
-	};
-	class TransportMagazines {
-		class _xx_DemoCharge_Remote_Mag {
-			magazine = "DemoCharge_Remote_Mag";
-			count = 2;
-		};
-
-		class _xx_SatchelCharge_Remote_Mag {
-			magazine = "SatchelCharge_Remote_Mag";
-			count = 1;
-		};
-
-		class _xx_ClaymoreDirectionalMine_Remote_Mag {
-			magazine = "ClaymoreDirectionalMine_Remote_Mag";
-			count = 4;
-		};
-	};
+    dlc = QUOTE(PREFIX); 
+    scope = 1; 
+    scopeCurator = 1;
+    class TransportWeapons {};
+    class TransportItems {
+        ADDITEM(ACE_DefusalKit,1);
+        ADDITEM(ACE_M26_Clacker,1);
+    };
+    class TransportMagazines {
+        ADDMAG(DemoCharge_Remote_Mag,2);
+        ADDMAG(SatchelCharge_Remote_Mag,1);
+        ADDMAG(ClaymoreDirectionalMine_Remote_Mag,4);
+    };
 };
 
 class B_Kitbag_rgr;
 class CLASS(B_Kitbag_rgr_CLS): B_Kitbag_rgr {
-	dlc = QUOTE(PREFIX); 
-	scope = 1; 
-	scopeCurator = 1;
-	class TransportWeapons {};
-	class TransportItems {
-		class _xx_Medikit {
-		magazine = "Medikit";
-		count = 1;
-		};
-
-		class _xx_FirstAidKit {
-		magazine = "FirstAidKit";
-		count = 10;
-		};
-	};
-	class TransportMagazines {};
+    dlc = QUOTE(PREFIX); 
+    scope = 1; 
+    scopeCurator = 1;
+    class TransportWeapons {};
+    class TransportItems {
+        MACRO_MEDICAL_BACKPACK_ITEMS;
+    };
+    class TransportMagazines {};
 };
 
 class B_LegStrapBag_black_F;
 class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
-	dlc = QUOTE(PREFIX); 
-	scope = 1; 
-	scopeCurator = 1;
-	class TransportWeapons {};
-	class TransportItems {};
-	class TransportMagazines {};
+    dlc = QUOTE(PREFIX); 
+    scope = 1; 
+    scopeCurator = 1;
+    class TransportWeapons {};
+    class TransportItems {};
+    class TransportMagazines {};
 };

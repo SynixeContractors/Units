@@ -7,6 +7,11 @@
 #define QUOTE(var1) #var1
 #define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
 
+#define SCOPE_DLC \
+    dlc = QUOTE(prefix); \
+    scope = 2; \
+    curatorScope = 2
+
 // Path
 #define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\var3
 #define PATHTOF(var1) PATHTOF_SYS(PREFIX,COMPONENT,var1)
@@ -29,8 +34,13 @@
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
 
 // Inventory
-#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+#define ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
     name = #ITEM; \
+    count = COUNT; \
+}
+
+#define ADDMAG(ITEM,COUNT) class _xx_##ITEM { \
+    magazine = #ITEM; \
     count = COUNT; \
 }
 
@@ -42,12 +52,52 @@
 #define R7(ITEM) ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM
 #define R8(ITEM) ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM,ITEM
 
+#define DEFAULT_ITEMS "ItemMap", "ItemCompass", "ItemWatch"
+#define DEFAULT_ITEMS_RADIO DEFAULT_ITEMS, "ItemRadio"
+
+#define EMPTY_VEHICLE_INVENTORY \
+    class TransportWeapons {}; \
+    class TransportItems {}; \
+    class TransportMagazines {}; \
+    class TransportBackpacks {}
+
+#define MACRO_MEDICAL_BACKPACK_ITEMS \
+    ADDITEM(ACE_fieldDressing,20); \
+    ADDITEM(ACE_epinephrine,5); \
+    ADDITEM(ACE_morphine,5); \
+    ADDITEM(ACE_bloodIV,4); \
+    ADDITEM(ACE_bloodIV_500,4); \
+    ADDITEM(ACE_splint,4); \
+    ADDITEM(ACE_tourniquet,4); \
+    ADDITEM(ACE_bloodIV_250,2)
+
 #define GROUP_UNIT(UNIT,SIDE) __GROUP_UNIT(__COUNTER__,UNIT,SIDE)
 
 #define __GROUP_UNIT(COUNTER, UNIT, SIDE) \
     class unit##COUNTER { \
         vehicle = #UNIT; \
         side = SIDE; \
+        #if COUNTER == 0 \
+        rank = "SERGEANT"; \
+        #else \
+        #if COUNTER == 2 \
+        rank = "SERGEANT"; \
+        #else \
+        #if COUNTER == 3 \
+        rank = "CORPORAL"; \
+        #else \
+        #if COUNTER == 5 \
+        rank = "SERGEANT"; \
+        #else \
+        #if COUNTER == 6 \
+        rank = "CORPORAL"; \
+        #else \
+        rank = "PRIVATE"; \
+        #endif \
+        #endif \
+        #endif \
+        #endif \
+        #endif \
         position[] = { \
             QUOTE(5 * floor ((COUNTER + 1) / 2) * (-1 ^ (COUNTER + 1))), \
             QUOTE(-5 * floor ((COUNTER + 1) / 2)), \
