@@ -10,8 +10,8 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
 	respawnWeapons[] = {"arifle_AK12U_CMore", "hgun_Rook40_F", "Throw", "Put"};
 	magazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
 	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", R2("SmokeShell")};
-	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_34";
@@ -77,8 +77,8 @@ class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
 	respawnWeapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
 	magazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell"};
 	respawnMagazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell"};
-	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	backpack = QCLASS(B_LegStrapBag_black_F_ENG);
 }; // not done -- Backpack needs items
 
