@@ -1,7 +1,6 @@
 class CfgGroups {
     class WEST {
-        class CLASS(BLU_UN_lxWS) {
-            name = "UNA (Winter)";
+        class BLU_UN_lxWS {
             class CLASS(BLU_UNA_Infantry_Winter) {
                 name = "Infantry (Winter)";
                 class CLASS(B_UNA_RifleSquad_Winter) {
