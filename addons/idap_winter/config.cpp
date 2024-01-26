@@ -4,7 +4,11 @@ class CfgPatches {
     class ADDON {
         name = QUOTE(COMPONENT);
         units[] = {
-            
+            QCLASS(C_IDAP_Man_AidWorker_01_Winter);
+            QCLASS(C_IDAP_Man_AidWorker_02_Winter);
+            QCLASS(C_IDAP_Man_AidWorker_03_Winter);
+            QCLASS(C_IDAP_Man_AidWorker_04_Winter);
+            QCLASS(C_IDAP_Man_EOD_01_Winter);
         };
         weapons[] = {
             
