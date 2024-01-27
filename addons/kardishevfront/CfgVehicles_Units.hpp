@@ -60,7 +60,7 @@ class CLASS(O_Rifleman_AT_F): CLASS(O_Rifleman_F) {
     respawnMagazines[] = {R5("30Rnd_545x39_Mag_F"), "RPG7_F", R2("SmokeShell")};
     linkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "CUP_H_RUS_Balaclava_Ratnik_Headphones", "G_Shades_Blue", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "CUP_H_RUS_Balaclava_Ratnik_Headphones", "G_Shades_Blue", DEFAULT_ITEMS_RADIO};
-    backpack = QCLASS(B_AssaultPack_rgr_AT);
+    backpack = QCLASS(O_AssaultPack_rgr_AT);
 };
 
 class CLASS(O_Grenadier_F): CLASS(O_Rifleman_F) {
@@ -85,7 +85,8 @@ class CLASS(O_Medic_F): CLASS(O_Rifleman_F) {
     linkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "H_Watchcap_camo", "G_Bandanna_tan", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "H_Watchcap_camo", "G_Bandanna_tan", DEFAULT_ITEMS_RADIO};
     uniformClass = "milgp_u_g3_field_set_mcalpine_flecktarn";
-}; // Needs backpack + items
+    backpack = QCLASS(O_Kitbag_rgr_CLS);
+};
 
 class CLASS(O_Soldier_exp_F): CLASS(O_Rifleman_F) {
     displayname = "Explosvies Specialist";
@@ -98,7 +99,8 @@ class CLASS(O_Soldier_exp_F): CLASS(O_Rifleman_F) {
     linkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "H_Watchcap_sgg","G_Bandanna_oli", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"CUP_V_O_SLA_M23_1_OD", "H_Watchcap_sgg", "G_Bandanna_oli", DEFAULT_ITEMS_RADIO};
     uniformClass = "milgp_u_g3_field_set_flecktarn_mcalpine";
-}; // needs clacker + defusal kit
+    backpack = QCLASS(O_Carryall_green_F_DMO);
+};
 
 class CLASS(O_Sapper_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
@@ -107,12 +109,13 @@ class CLASS(O_Sapper_Sab_F): CLASS(O_Rifleman_F) {
     role = "Sapper";
     weapons[] = {"arifle_AK12U_Supp", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12U_Supp", "Throw", "Put"};
-    magazines[] = {R6("30Rnd_762x39_Mag_F"), R2("DemoCharge_Remote_Mag"), R4("APERSMine_Range_Mag"), R2("SmokeShell"), "ACE_M26_Clacker", "ACE_DefusalKit"};
-    respawnMagazines[] = {R6("30Rnd_762x39_Mag_F"), R2("DemoCharge_Remote_Mag"), R4("APERSMine_Range_Mag"), R2("SmokeShell"), "ACE_M26_Clacker", "ACE_DefusalKit"};
+    magazines[] = {R6("30Rnd_762x39_Mag_F"), R4("APERSMine_Range_Mag"), R2("SmokeShell")};
+    respawnMagazines[] = {R6("30Rnd_762x39_Mag_F"), R4("APERSMine_Range_Mag"), R2("SmokeShell")};
     linkedItems[] = {"V_SmershVest_01_radio_F", "CUP_H_RUS_Balaclava_Ratnik_Headphones_winter", "G_Shades_Blue", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"V_SmershVest_01_radio_F", "CUP_H_RUS_Balaclava_Ratnik_Headphones_winter", "G_Shades_Blue", DEFAULT_ITEMS_RADIO};
     uniformClass = "milgp_u_g3_field_set_mcalpine";
-}; // no clacker or defusal kit
+    backpack = QCLASS(O_Carryall_green_F_DMO);
+};
 
 class CLASS(O_TeamLeader_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
@@ -180,7 +183,8 @@ class CLASS(O_Medic_Sab_F): CLASS(O_Rifleman_F) {
     linkedItems[] = {"V_SmershVest_01_F", "CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     respawnlinkedItems[] = {"V_SmershVest_01_F", "CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     uniformClass = "milgp_u_g3_field_set_mcalpine";
-}; // Needs backpack + items
+    backpack = QCLASS(O_Kitbag_rgr_CLS);
+};
 
 class CLASS(O_Sniper_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);

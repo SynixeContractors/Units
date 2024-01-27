@@ -42,7 +42,7 @@ class CLASS(B_Rifleman_AT_F): CLASS(B_Rifleman_F) {
 	RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
 	uniformClass = "CUP_I_B_PMC_Unit_29";
 	backpack = QCLASS(B_Carryall_green_F_AT);
-}; // not done -- Backpack needs items
+};
 
 class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
 	displayname = "Marksman";
@@ -67,7 +67,7 @@ class CLASS(B_Soldier_exp_F): CLASS(B_Rifleman_F) {
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
 	backpack = QCLASS(B_Carryall_green_F_DMO);
-}; // not done -- Backpack needs items
+};
 
 class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
 	displayname = "Engineer";
@@ -80,7 +80,7 @@ class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	backpack = QCLASS(B_LegStrapBag_black_F_ENG);
-}; // not done -- Backpack needs items
+};
 
 class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
 	displayname = "Combat Life Saver";
@@ -92,7 +92,7 @@ class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	backpack = QCLASS(B_Kitbag_rgr_CLS);
-}; // not done -- Backpack needs items
+};
 
 class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
 	displayname = "Autorifleman";
