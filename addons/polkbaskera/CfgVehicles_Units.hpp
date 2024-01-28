@@ -111,8 +111,8 @@ class CLASS(B_Grenadier_F): CLASS(B_Rifleman_F) {
 	role = "Grenadier";
 	weapons[] = {"arifle_AK12_GL_F", "Throw", "Put"};
 	respawnWeapons[] = {"arifle_AK12_GL_F", "Throw", "Put"};
-	magazines[] = {R6("30Rnd_762x39_AK12_Mag_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
-	respawnMagazines[] = {R6("30Rnd_762x39_AK12_Mag_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
+	magazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
+	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Green_F"), R3("1Rnd_HE_Grenade_shell"), R2("UGL_FlareRed_F"), R2("1Rnd_SmokeRed_Grenade_shell"), R2("1Rnd_Smoke_Grenade_shell"), "HandGrenade", "SmokeShell"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
 	uniformClass = "CUP_I_B_PMC_Unit_34";
