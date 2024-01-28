@@ -46,6 +46,8 @@ class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
     scope = 1; 
     scopeCurator = 1;
     class TransportWeapons {};
-    class TransportItems {};
+    class TransportItems {
+        ADDITEM(ToolKit,1);
+    };
     class TransportMagazines {};
 };
