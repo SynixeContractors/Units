@@ -22,8 +22,8 @@ class CLASS(B_TeamLeader_F): CLASS(B_Rifleman_F) {
 	icon = "iconManLeader";
 	weapons[] = {"arifle_AK12U_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
 	respawnWeapons[] = {"arifle_AK12U_F", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
-	magazines[] = {R6("30Rnd_762x39_AK12_Mag_Tracer_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
-	respawnMagazines[] = {R6("30Rnd_762x39_AK12_Mag_Tracer_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	magazines[] = {R6("30Rnd_762x39_Mag_Tracer_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
+	respawnMagazines[] = {R6("30Rnd_762x39_Mag_Tracer_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
 	linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", DEFAULT_ITEMS_RADIO, "CUP_NVG_1PN138_Hide"};
 	respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", DEFAULT_ITEMS_RADIO, "CUP_NVG_1PN138_Hide"};
 };
