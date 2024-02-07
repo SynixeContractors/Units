@@ -12,8 +12,8 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_arifle_L85A2", "Throw", "Put"};
         magazines[] = {R6("CUP_30Rnd_556x45_Stanag_L85"), R2("CUP_HandGrenade_L109A1_HE"), "SmokeShell"};
         respawnMagazines[] = {R6("CUP_30Rnd_556x45_Stanag_L85"), R2("CUP_HandGrenade_L109A1_HE"), "SmokeShell"};
-        linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_PVS7_Hide"};
-        respawnLinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "CUP_NVG_PVS7_Hide"};
+        linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", DEFAULT_ITEMS_RADIO, "CUP_NVG_PVS7_Hide"};
+        respawnLinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive", "CUP_H_LWHv2_ERDL_lowland", DEFAULT_ITEMS_RADIO, "CUP_NVG_PVS7_Hide"};
         items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
         respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
         vehicleClass = "CUP_I_Men_RACS_WDL";
