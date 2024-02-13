@@ -44,7 +44,7 @@ class CfgPatches {
             QCLASS(O_KardishevFront_Sab_MGTeam),
             QCLASS(O_KardishevFront_Sab_Recon),
             QCLASS(O_KardishevFront_Sab_Sniper),
-            QCLASS(B_AssaultPack_rgr_AT),
+            QCLASS(O_AssaultPack_rgr_AT),
             QCLASS(O_Carryall_green_F_AT),
         };
         weapons[] = {
@@ -74,7 +74,7 @@ class CfgFactionClasses {
         curatorScope = 2;
         displayName = "Kardishev Front";
         side = 0;
-        priority = 0;
+        priority = 1;
     };
 };
 
