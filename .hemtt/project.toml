@@ -2,6 +2,9 @@ name = "Synixe Units"
 prefix = "units"
 mainprefix = "synixe"
 
+[hemtt.release]
+folder = "synixe_units"
+
 [version]
 git_hash = 0
 
