@@ -1,6 +1,6 @@
 class TACU_Main_U_OPFOR_Soldier_Base;
 class CLASS(O_Rifleman_F): TACU_Main_U_OPFOR_Soldier_Base {
-    displayname = "Rifleman";
+    displayName = "Rifleman";
     SCOPE_DLC;
     genericNames = "RussianMen";
     identityTypes[] = {"LanguageRUS_F","Head_Russian","Head_Euro","Head_Enoch","G_RUS_SF"};
@@ -17,7 +17,7 @@ class CLASS(O_Rifleman_F): TACU_Main_U_OPFOR_Soldier_Base {
 };
 
 class CLASS(O_TeamLeader_F): CLASS(O_Rifleman_F) {
-    displayname = "Team Leader";
+    displayName = "Team Leader";
     icon = "iconManLeader";
     weapons[] = {"arifle_Velko_lxWS", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_lxWS", "Binocular", "Throw", "Put"};
@@ -29,7 +29,7 @@ class CLASS(O_TeamLeader_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_Marksman_F): CLASS(O_Rifleman_F) {
-    displayname = "Marksman";
+    displayName = "Marksman";
     role = "Marksman";
     weapons[] = {"srifle_camo_Burris", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"srifle_camo_Burris", "Binocular", "Throw", "Put"};
@@ -40,7 +40,7 @@ class CLASS(O_Marksman_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_MachineGunner_F): CLASS(O_Rifleman_F) {
-    displayname = "Machine Gunner";
+    displayName = "Machine Gunner";
     icon = "iconManMG";
     role = "MachineGunner";
     weapons[] = {"LMG_S77_lxWS", "Throw", "Put"};
@@ -51,7 +51,7 @@ class CLASS(O_MachineGunner_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_Rifleman_AT_F): CLASS(O_Rifleman_F) {
-    displayname = "Rifleman (AT)";
+    displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     weapons[] = {"arifle_AKS_F", "launch_RPG7_F", "Throw", "Put"};
@@ -64,7 +64,7 @@ class CLASS(O_Rifleman_AT_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_Grenadier_F): CLASS(O_Rifleman_F) {
-    displayname = "Grenadier";
+    displayName = "Grenadier";
     role = "Grenadier";
     weapons[] = {"arifle_AK12_GL_F", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_GL_F", "Binocular", "Throw", "Put"};
@@ -76,7 +76,7 @@ class CLASS(O_Grenadier_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_Medic_F): CLASS(O_Rifleman_F) {
-    displayname = "Combat Life Saver";
+    displayName = "Combat Life Saver";
     icon = "iconManMedic";
     weapons[] = {"arifle_AKS_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
@@ -89,7 +89,7 @@ class CLASS(O_Medic_F): CLASS(O_Rifleman_F) {
 };
 
 class CLASS(O_Soldier_exp_F): CLASS(O_Rifleman_F) {
-    displayname = "Explosvies Specialist";
+    displayName = "Explosvies Specialist";
     icon = "iconManExplosive";
     role = "Sapper";
     weapons[] = {"arifle_VelkoR5_lxWS", "Throw", "Put"};
@@ -104,7 +104,7 @@ class CLASS(O_Soldier_exp_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Sapper_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Sapper";
+    displayName = "Sapper";
     icon = "iconManExplosive";
     role = "Sapper";
     weapons[] = {"arifle_AK12U_Supp", "Throw", "Put"};
@@ -119,7 +119,7 @@ class CLASS(O_Sapper_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_TeamLeader_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Team Leader";
+    displayName = "Team Leader";
     icon = "iconManLeader";
     weapons[] = {"arifle_VelkoR5_GL_Supp", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"arifle_VelkoR5_GL_Supp", "Binocular", "Throw", "Put"};
@@ -132,7 +132,7 @@ class CLASS(O_TeamLeader_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_MachineGunner_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Machine Gunner";
+    displayName = "Machine Gunner";
     icon = "iconManMG";
     role = "MachineGunner";
     weapons[] = {"LMG_S77_Compact_Supp", "Throw", "Put"};
@@ -146,7 +146,7 @@ class CLASS(O_MachineGunner_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Marksman_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Marksman";
+    displayName = "Marksman";
     role = "Marksman";
     weapons[] = {"arifle_VelkoR5_MRCO_Supp", "Throw", "Put"};
     respawnWeapons[] = {"arifle_VelkoR5_MRCO_Supp", "Throw", "Put"};
@@ -159,7 +159,7 @@ class CLASS(O_Marksman_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Rifleman_AT_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Rifleman (AT)";
+    displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     weapons[] = {"arifle_AK12U_Supp", "launch_RPG32_green_F", "Throw", "Put"};
@@ -174,7 +174,7 @@ class CLASS(O_Rifleman_AT_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Medic_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Combat Life Saver";
+    displayName = "Combat Life Saver";
     icon = "iconManMedic";
     weapons[] = {"arifle_AK12U_Supp", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12U_Supp", "Throw", "Put"};
@@ -188,7 +188,7 @@ class CLASS(O_Medic_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Sniper_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Sniper";
+    displayName = "Sniper";
     role = "Marksman";
     weapons[] = {"srifle_DMR_02_KHS_Supp", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"srifle_DMR_02_KHS_Supp", "hgun_Rook40_F", "Throw", "Put"};
@@ -201,7 +201,7 @@ class CLASS(O_Sniper_Sab_F): CLASS(O_Rifleman_F) {
 
 class CLASS(O_Spotter_Sab_F): CLASS(O_Rifleman_F) {
     editorSubcategory = QCLASS(men_saboteur);
-    displayname = "Spotter";
+    displayName = "Spotter";
     weapons[] = {"arifle_VelkoR5_Supp", "Rangefinder", "Throw", "Put"};
     respawnWeapons[] = {"arifle_VelkoR5_Supp", "Rangefinder", "Throw", "Put"};
     magazines[] = {R6("35Rnd_556x45_Velko_reload_tracer_yellow_lxWS"), R2("MiniGrenade"), R2("SmokeShell")};

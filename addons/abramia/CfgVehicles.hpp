@@ -27,7 +27,7 @@ class CfgVehicles {
     };
 
     class CLASS(I_Autorifleman_F): CLASS(I_Rifleman_F) {
-        displayname = "Autorifleman";
+        displayName = "Autorifleman";
         weapons[] = {"CUP_lmg_minimipara", "Throw", "Put"};
         respawnWeapons[] = {"CUP_lmg_minimipara", "Throw", "Put"};
         magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249"};
@@ -37,7 +37,7 @@ class CfgVehicles {
     };
 
     class CLASS(I_Medic_F): CLASS(I_Rifleman_F) {
-        displayname = "Medic";
+        displayName = "Medic";
         icon = "iconManMedic";
         picture = "pictureHeal";
         backpack = "CUP_B_RACS_Backpack_Medic";
@@ -49,7 +49,7 @@ class CfgVehicles {
     };
 
     class CLASS(I_Engineer_F): CLASS(I_Rifleman_F) {
-        displayname = "Engineer";
+        displayName = "Engineer";
         icon = "iconManEngineer";
         picture = "pictureRepair";
         backpack = "CUP_B_RACS_Backpack_Engineer";

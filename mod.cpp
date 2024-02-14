@@ -1,0 +1,12 @@
+name = "Synixe Units";
+picture = "logo_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/SynixeContractors/Units";
+description = "Synixe Units - Factions complementing PMCs";
+logo = "logo_ca.paa";
+logoOver = "logo_ca.paa";
+tooltip = "Synixe Units";
+tooltipOwned = "Synixe Units Owned";
+overview = "Synixe Units provides factions for Private Military Companies, their enemies and friends.";
+author = "Synixe Contractors";
+overviewPicture = "logo_ca.paa";

@@ -10,7 +10,7 @@
 #define SCOPE_DLC \
     dlc = QUOTE(prefix); \
     scope = 2; \
-    curatorScope = 2
+    scopeCurator = 2
 
 // Path
 #define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\var3
