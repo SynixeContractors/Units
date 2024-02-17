@@ -1,5 +1,8 @@
 class B_AssaultPack_rgr;
 class CLASS(O_AssaultPack_rgr_AT): B_AssaultPack_rgr {
+    dlc = QUOTE(PREFIX); 
+    scope = 1; 
+    scopeCurator = 1;
     class TransportWeapons {};
     class TransportItems {};
     class TransportMagazines {
