@@ -1,5 +1,5 @@
 name = "Synixe Units"
-prefix = "units"
+prefix = "synixeunits"
 mainprefix = "synixe"
 
 [hemtt.release]

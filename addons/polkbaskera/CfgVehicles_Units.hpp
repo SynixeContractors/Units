@@ -15,6 +15,7 @@ class CLASS(B_Rifleman_F): B_Soldier_F {
     Items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
     RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
     uniformClass = "CUP_I_B_PMC_Unit_34";
+    editorPreview = QPATHTOF(previews\CLASS(B_Rifleman_F).jpg);
 };
 
 class CLASS(B_TeamLeader_F): CLASS(B_Rifleman_F) {
@@ -26,6 +27,7 @@ class CLASS(B_TeamLeader_F): CLASS(B_Rifleman_F) {
     respawnMagazines[] = {R6("30Rnd_762x39_Mag_Tracer_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", DEFAULT_ITEMS_RADIO, "CUP_NVG_1PN138_Hide"};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "H_Beret_blk","G_Bandanna_blk", DEFAULT_ITEMS_RADIO, "CUP_NVG_1PN138_Hide"};
+    editorPreview = QPATHTOF(previews\CLASS(B_TeamLeader_F).jpg);
 };
 
 class CLASS(B_Rifleman_AT_F): CLASS(B_Rifleman_F) {
@@ -42,6 +44,7 @@ class CLASS(B_Rifleman_AT_F): CLASS(B_Rifleman_F) {
     RespawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot")};
     uniformClass = "CUP_I_B_PMC_Unit_29";
     backpack = QCLASS(B_Carryall_green_F_AT);
+    editorPreview = QPATHTOF(previews\CLASS(B_Rifleman_AT_F).jpg);
 };
 
 class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
@@ -54,6 +57,7 @@ class CLASS(B_Marksman_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27_goggles","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     uniformClass = "CUP_I_B_PMC_Unit_30";
+    editorPreview = QPATHTOF(previews\CLASS(B_Marksman_F).jpg);
 };
 
 class CLASS(B_Soldier_exp_F): CLASS(B_Rifleman_F) {
@@ -67,6 +71,7 @@ class CLASS(B_Soldier_exp_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "CUP_H_RUS_6B27","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
     backpack = QCLASS(B_Carryall_green_F_DMO);
+    editorPreview = QPATHTOF(previews\CLASS(B_Soldier_exp_F).jpg);
 };
 
 class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
@@ -80,6 +85,7 @@ class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     backpack = QCLASS(B_LegStrapBag_black_F_ENG);
+    editorPreview = QPATHTOF(previews\CLASS(B_Engineer_F).jpg);
 };
 
 class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
@@ -92,6 +98,7 @@ class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     backpack = QCLASS(B_Kitbag_rgr_CLS);
+    editorPreview = QPATHTOF(previews\CLASS(B_Medic_F).jpg);
 };
 
 class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
@@ -104,6 +111,7 @@ class CLASS(B_Autorifleman_F): CLASS(B_Rifleman_F) {
     respawnMagazines[] = {R4("75rnd_762x39_AK12_Mag_Tracer_F"), "HandGrenade", R2("SmokeShell")};
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF","G_Balaclava_oli", DEFAULT_ITEMS_RADIO};
+    editorPreview = QPATHTOF(previews\CLASS(B_Autorifleman_F).jpg);
 };
 
 class CLASS(B_Grenadier_F): CLASS(B_Rifleman_F) {
@@ -116,6 +124,7 @@ class CLASS(B_Grenadier_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"WSLV_Platecarrier_GRN_NF", "G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     uniformClass = "CUP_I_B_PMC_Unit_34";
+    editorPreview = QPATHTOF(previews\CLASS(B_Grenadier_F).jpg);
 };
 
 class CLASS(B_HeliPilot_F): CLASS(B_Rifleman_F) {
@@ -126,6 +135,7 @@ class CLASS(B_HeliPilot_F): CLASS(B_Rifleman_F) {
     respawnMagazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
     linkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_PilotHelmetHeli_O","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_PilotHelmetHeli_O","G_Balaclava_blk", DEFAULT_ITEMS_RADIO};
+    editorPreview = QPATHTOF(previews\CLASS(B_HeliPilot_F).jpg);
 };
 
 class CLASS(B_Crewman_F): CLASS(B_Rifleman_F) {
@@ -137,6 +147,7 @@ class CLASS(B_Crewman_F): CLASS(B_Rifleman_F) {
     respawnMagazines[] = {R4("30Rnd_545x39_Mag_Green_F"), "SmokeShell", "HandGrenade"};
     linkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_Tank_eaf_F","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"V_CarrierRigKBT_01_Olive_F", "H_Tank_eaf_F","G_Bandanna_blk", DEFAULT_ITEMS_RADIO};
+    editorPreview = QPATHTOF(previews\CLASS(B_Crewman_F).jpg);
 };
 
 class CLASS(B_Sniper_F): CLASS(B_Rifleman_F) {
@@ -148,6 +159,7 @@ class CLASS(B_Sniper_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"V_SmershVest_01_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"V_SmershVest_01_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     uniformClass = "CUP_I_B_PMC_Unit_33";
+    editorPreview = QPATHTOF(previews\CLASS(B_Sniper_F).jpg);
 };
 
 class CLASS(B_Spotter_F): CLASS(B_Rifleman_F) {
@@ -159,4 +171,5 @@ class CLASS(B_Spotter_F): CLASS(B_Rifleman_F) {
     linkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     respawnLinkedItems[] = {"V_SmershVest_01_radio_F","CUP_G_RUS_Balaclava_Ratnik_winter_v2", DEFAULT_ITEMS_RADIO};
     uniformClass = "CUP_I_B_PMC_Unit_33";
+    editorPreview = QPATHTOF(previews\CLASS(B_Spotter_F).jpg);
 };

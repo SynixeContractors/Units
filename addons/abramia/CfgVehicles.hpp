@@ -23,7 +23,7 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4", "Flag", "insignia"};
         icon = "iconMan";
         editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
-        editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_Soldier_wdl.jpg";
+        editorPreview = QPATHTOF(previews\CLASS(I_Rifleman_F).jpg);
     };
 
     class CLASS(I_Autorifleman_F): CLASS(I_Rifleman_F) {
@@ -33,7 +33,7 @@ class CfgVehicles {
         magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249"};
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249"};
         icon = "iconManMG";
-        editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_AR_wdl.jpg";
+        editorPreview = QPATHTOF(previews\CLASS(I_Autorifleman_F).jpg);
     };
 
     class CLASS(I_Medic_F): CLASS(I_Rifleman_F) {
@@ -45,7 +45,7 @@ class CfgVehicles {
         attendant = 1;
         items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
         respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), R2("ACE_salineIV_500"), R2("ACE_tourniquet"), R2("ACE_splint")};
-        editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_Medic_wdl.jpg";
+        editorPreview = QPATHTOF(previews\CLASS(I_Medic_F).jpg);
     };
 
     class CLASS(I_Engineer_F): CLASS(I_Rifleman_F) {
@@ -56,9 +56,9 @@ class CfgVehicles {
         role = "Sapper";
         engineer = 1;
         canDeactivateMines = 1;
-        editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_People_Military_RACS\Data\preview\CUP_I_RACS_Engineer_wdl.jpg";
         items[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
         respawnItems[] = {R4("ACE_elasticBandage"), R4("ACE_packingBandage"), R2("ACE_quikclot"), "ACE_wirecutter", "ACE_EntrenchingTool"};
+        editorPreview = QPATHTOF(previews\CLASS(I_Engineer_F).jpg);
     };
 
     class CUP_I_RACS_Pilot;
@@ -70,5 +70,6 @@ class CfgVehicles {
         genericNames = "NATOMen";
         faction = QCLASS(I_Abramia);
         identityTypes[] = {"LanguageENGB_F", "Head_NATO", "CUP_G_ARMY"};
+        editorPreview = QPATHTOF(previews\CLASS(I_Pilot_F).jpg);
     };
 };
