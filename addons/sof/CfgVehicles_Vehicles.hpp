@@ -180,3 +180,25 @@ class CLASS(O_Truck_SOF_covered_wd): TACU_Kamaz_Covered_Base {
     typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
     EMPTY_VEHICLE_INVENTORY;
 };
+
+class C_Van_02_vehicle_F;
+class CLASS(O_Van_SOF_vehicle_F): C_Van_02_vehicle_F {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    textureList[] = {"Black",1};
+    crew = QCLASS(SOF_O_Rifleman_wd);
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class C_Van_02_transport_F;
+class CLASS(O_Van_SOF_transport_F): C_Van_02_transport_F {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    textureList[] = {"Black",1};
+    crew = QCLASS(SOF_O_Rifleman_wd);
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};

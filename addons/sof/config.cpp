@@ -52,6 +52,8 @@ class CfgPatches {
             QCLASS(O_MRAP_SOF_HMG_wd),
             QCLASS(O_Truck_SOF_wd),
             QCLASS(O_Truck_SOF_covered_wd),
+            QCLASS(O_Van_SOF_vehicle_F),
+            QCLASS(O_Van_SOF_transport_F),
             QCLASS(SOF_O_UGV_wd),
             QCLASS(SOF_O_UGV_rcws_wd),
             QCLASS(SOF_UAV_01),
