@@ -19,7 +19,7 @@ class CLASS(SOF_O_UGV_rcws_wd): B_T_UGV_01_rcws_olive_F {
 };
 
 class ION_UAV_01_lxWS;
-class SOF_UAV_01 : ION_UAV_01_lxWS {
+class CLASS(SOF_UAV_01) : ION_UAV_01_lxWS {
 	displayName = "Tayran AR-2";
     SCOPE_DLC;
     faction = QCLASS(O_SOF);
@@ -29,7 +29,7 @@ class SOF_UAV_01 : ION_UAV_01_lxWS {
 };
 
 class ION_UAV_02_lxWS;
-class SOF_UAV_02_Minimi : ION_UAV_02_lxWS {
+class CLASS(SOF_UAV_02_Minimi) : ION_UAV_02_lxWS {
 	displayName = "Roshanak AP-5 (Minimi)";
     SCOPE_DLC;
     faction = QCLASS(O_SOF);
@@ -41,7 +41,7 @@ class SOF_UAV_02_Minimi : ION_UAV_02_lxWS {
 };
 
 class ION_UAV_02_lxWS;
-class SOF_UAV_02_GM6 : ION_UAV_02_lxWS {
+class CLASS(SOF_UAV_02_GM6) : ION_UAV_02_lxWS {
 	displayName = "Roshanak AP-5 (Lynx)";
     SCOPE_DLC;
     faction = QCLASS(O_SOF);
