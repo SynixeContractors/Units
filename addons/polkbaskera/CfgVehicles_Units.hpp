@@ -91,6 +91,7 @@ class CLASS(B_Engineer_F): CLASS(B_Rifleman_F) {
 class CLASS(B_Medic_F): CLASS(B_Rifleman_F) {
     displayName = "Combat Life Saver";
     icon = "iconManMedic";
+    role = "CombatLifeSaver";
     weapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {R6("30Rnd_545x39_Mag_Green_F"), R2("16Rnd_9x21_Mag"),"HandGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
