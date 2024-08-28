@@ -16,38 +16,14 @@ class CLASS(O_Boat_Transport_SOF_02_F): I_C_Boat_Transport_02_F {
     EMPTY_VEHICLE_INVENTORY;
 };
 
-class Heli_light_03_unarmed_base_F;
-class CLASS(O_Heli_unarmed_SOF_F): Heli_light_03_unarmed_base_F {
-	displayName = "AW159 Wildcat (Unarmed)";
+class O_SFIA_Heli_EC_02_RF;
+class CLASS(O_Heli_EC_SOF_F): O_SFIA_Heli_EC_02_RF {
+    displayName = "RAI-360M Cougar";
     SCOPE_DLC;
-	side = 0;
     faction = QCLASS(O_SOF);
-    crew = QCLASS(O_Helipilot_wd_F);
-    textureList[] = {"Green",1};
-    typicalCargo[] = {QCLASS(O_Helipilot_wd_F)};
-    EMPTY_VEHICLE_INVENTORY;
-};
-
-class TACU_Wildcat_Armed_Base;
-class CLASS(O_Heli_SOF_F): TACU_Wildcat_Armed_Base {
-    displayName = "AW159 Wildcat";
-    SCOPE_DLC;
-	side = 0;
-    faction = QCLASS(O_SOF);
-    crew = QCLASS(O_Helipilot_wd_F);
-	textureList[] = {"Green",1};
-    typicalCargo[] = {QCLASS(O_Helipilot_wd_F)};
-    EMPTY_VEHICLE_INVENTORY;
-};
-
-class TACU_Merlin_Base;
-class CLASS(O_Merlin_SOF_F): TACU_Merlin_Base {
-    SCOPE_DLC;
-	side = 0;
-    faction = QCLASS(O_SOF);
-    crew = QCLASS(O_Helipilot_wd_F);
-	textureList[] = {"South_African_Green",1};
-    typicalCargo[] = {QCLASS(O_Helicrew_wd_F)};
+    crew = QCLASS(SOF_O_Helipilot_wd);
+	textureList[] = {"camo_5",1};
+    typicalCargo[] = {QCLASS(SOF_O_Helicrew_wd)};
     EMPTY_VEHICLE_INVENTORY;
 };
 
@@ -113,7 +89,7 @@ class CLASS(O_LSV_SOF_unarmed_wd): O_LSV_02_unarmed_F {
 };
 
 class O_G_Quadbike_01_F;
-class CLASS(O_G_Quadbike_SOF_wd): O_G_Quadbike_01_F {
+class CLASS(O_Quadbike_SOF_wd): O_G_Quadbike_01_F {
     SCOPE_DLC;
 	side = 0;
     faction = QCLASS(O_SOF);
@@ -122,7 +98,7 @@ class CLASS(O_G_Quadbike_SOF_wd): O_G_Quadbike_01_F {
 };
 
 class O_G_Offroad_01_F;
-class CLASS(O_G_Offroad_SOF_wd): O_G_Offroad_01_F {
+class CLASS(O_Offroad_SOF_wd): O_G_Offroad_01_F {
     SCOPE_DLC;
     faction = QCLASS(O_SOF);
     crew = QCLASS(SOF_O_Rifleman_wd);
@@ -132,7 +108,7 @@ class CLASS(O_G_Offroad_SOF_wd): O_G_Offroad_01_F {
 };
 
 class O_G_Offroad_01_armed_F;
-class CLASS(O_G_Offroad_SOF_armed_wd): O_G_Offroad_01_armed_F {
+class CLASS(O_Offroad_SOF_armed_wd): O_G_Offroad_01_armed_F {
     SCOPE_DLC;
     faction = QCLASS(O_SOF);
     crew = QCLASS(SOF_O_Rifleman_wd);
@@ -199,6 +175,61 @@ class CLASS(O_Van_SOF_transport_F): C_Van_02_transport_F {
     side = 0;
     textureList[] = {"Black",1};
     crew = QCLASS(SOF_O_Rifleman_wd);
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class O_G_Pickup_rf;
+class CLASS(O_Pickup_SOF_wd): O_G_Pickup_rf {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    crew = QCLASS(SOF_O_Rifleman_wd);
+	textureList[] = {"Guerilla_09",1};
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class I_Pickup_hmg_rf;
+class CLASS(O_Pickup_hmg_SOF_wd): I_Pickup_hmg_rf {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    crew = QCLASS(SOF_O_Rifleman_wd);
+	textureList[] = {"Guerilla_09",1};
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class B_Pickup_mmg_rf;
+class CLASS(O_Pickup_mmg_SOF_wd): B_Pickup_mmg_rf {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    crew = QCLASS(SOF_O_Rifleman_wd);
+	textureList[] = {"Guerilla_09",1};
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class I_G_Pickup_mrl_rf;
+class CLASS(O_Pickup_mrl_SOF_wd): I_G_Pickup_mrl_rf {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    crew = QCLASS(SOF_O_Rifleman_wd);
+	textureList[] = {"Guerilla_09",1};
+    typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
+    EMPTY_VEHICLE_INVENTORY;
+};
+
+class I_Pickup_aat_rf;
+class CLASS(O_Pickup_aat_SOF_wd): I_Pickup_aat_rf {
+    SCOPE_DLC;
+    faction = QCLASS(O_SOF);
+    side = 0;
+    crew = QCLASS(SOF_O_Rifleman_wd);
+	textureList[] = {"Guerilla_09",1};
     typicalCargo[] = {QCLASS(SOF_O_Rifleman_wd)};
     EMPTY_VEHICLE_INVENTORY;
 };

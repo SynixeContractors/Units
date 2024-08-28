@@ -9,7 +9,10 @@ folder = "synixe_units"
 git_hash = 0
 
 [hemtt.launch]
-dlc = ["ws"]
+dlc = ["ws",
+       "rf"
+]
+
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE3
