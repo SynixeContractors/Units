@@ -48,7 +48,6 @@ class CfgWeapons {
         };
     };
 
-    class arifle_Velko_lxWS;
     class arifle_VelkoR5_Supp: arifle_Velko_lxWS {
         scope = 1;
         class LinkedItems {

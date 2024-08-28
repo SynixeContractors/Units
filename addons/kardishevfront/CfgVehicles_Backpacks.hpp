@@ -35,7 +35,6 @@ class CLASS(O_Kitbag_rgr_CLS): B_Kitbag_rgr {
     class TransportMagazines {};
 };
 
-class B_Carryall_green_F;
 class CLASS(O_Carryall_green_F_DMO): B_Carryall_green_F {
     dlc = QUOTE(PREFIX); 
     scope = 1; 

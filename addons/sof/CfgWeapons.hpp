@@ -15,7 +15,6 @@ class CfgWeapons {
         };
     };
 
-    class arifle_Velko_lxWS;
     class arifle_Velko_xps3 : arifle_Velko_lxWS {
         scope = 1;
         class LinkedItems {
@@ -53,7 +52,6 @@ class CfgWeapons {
         };
     };
 
-    class arifle_Velko_lxWS;
     class arifle_Velko_rds : arifle_Velko_lxWS {
         scope = 1;
         class LinkedItems {
@@ -150,7 +148,6 @@ class CfgWeapons {
         };
     };
 
-    class arifle_Mk20_GL_F;
     class arifle_Mk20_GL_xps3 : arifle_Mk20_GL_F {
         scope = 1;
         class LinkedItems {

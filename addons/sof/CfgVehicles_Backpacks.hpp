@@ -24,7 +24,6 @@ class CLASS(B_Carryall_blk_AT): B_Carryall_blk {
     };
 };
 
-class B_Carryall_blk;
 class CLASS(B_Carryall_blk_AA): B_Carryall_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -36,7 +35,6 @@ class CLASS(B_Carryall_blk_AA): B_Carryall_blk {
     };
 };
 
-class B_Carryall_blk;
 class CLASS(B_Carryall_blk_DMO): B_Carryall_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -53,7 +51,6 @@ class CLASS(B_Carryall_blk_DMO): B_Carryall_blk {
     };
 };
 
-class B_Carryall_blk;
 class CLASS(B_Carryall_blk_MNE): B_Carryall_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -94,7 +91,6 @@ class CLASS(B_LegStrapBag_black_F_ENG): B_LegStrapBag_black_F {
     class TransportMagazines {};
 };
 
-class B_AssaultPack_blk;
 class CLASS(B_AssaultPack_blk_Minimi): B_AssaultPack_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -106,7 +102,6 @@ class CLASS(B_AssaultPack_blk_Minimi): B_AssaultPack_blk {
     };
 };
 
-class B_AssaultPack_blk;
 class CLASS(B_AssaultPack_blk_Lynx): B_AssaultPack_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -118,7 +113,6 @@ class CLASS(B_AssaultPack_blk_Lynx): B_AssaultPack_blk {
     };
 };
 
-class B_Kitbag_rgr;
 class CLASS(B_Kitbag_rgr_AGH): B_Kitbag_rgr {
     dlc = QUOTE(PREFIX); 
     scope = 1; 
@@ -130,7 +124,6 @@ class CLASS(B_Kitbag_rgr_AGH): B_Kitbag_rgr {
     };
 };
 
-class B_AssaultPack_blk;
 class CLASS(B_AssaultPack_blk_AAR): B_AssaultPack_blk {
     dlc = QUOTE(PREFIX); 
     scope = 1; 

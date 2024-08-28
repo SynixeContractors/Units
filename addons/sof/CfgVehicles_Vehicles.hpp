@@ -17,7 +17,7 @@ class CLASS(O_Boat_Transport_SOF_02_F): I_C_Boat_Transport_02_F {
 };
 
 class Heli_light_03_unarmed_base_F;
-class CLASS(O_Heli_light_03_unarmed_SOF_F): Heli_light_03_unarmed_base_F {
+class CLASS(O_Heli_unarmed_SOF_F): Heli_light_03_unarmed_base_F {
 	displayName = "AW159 Wildcat (Unarmed)";
     SCOPE_DLC;
 	side = 0;
@@ -29,7 +29,7 @@ class CLASS(O_Heli_light_03_unarmed_SOF_F): Heli_light_03_unarmed_base_F {
 };
 
 class TACU_Wildcat_Armed_Base;
-class CLASS(O_Heli_light_03_dynamicLoadout_SOF_F): TACU_Wildcat_Armed_Base {
+class CLASS(O_Heli_SOF_F): TACU_Wildcat_Armed_Base {
     displayName = "AW159 Wildcat";
     SCOPE_DLC;
 	side = 0;
@@ -41,7 +41,7 @@ class CLASS(O_Heli_light_03_dynamicLoadout_SOF_F): TACU_Wildcat_Armed_Base {
 };
 
 class TACU_Merlin_Base;
-class CLASS(O_Merlin_Transport_SOF_F): TACU_Merlin_Base {
+class CLASS(O_Merlin_SOF_F): TACU_Merlin_Base {
     SCOPE_DLC;
 	side = 0;
     faction = QCLASS(O_SOF);

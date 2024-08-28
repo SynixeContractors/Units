@@ -40,7 +40,6 @@ class CLASS(SOF_UAV_02_Minimi) : ION_UAV_02_lxWS {
 	lxws_droneWeapon[] = {"LMG_03_F","200Rnd_556x45_Box_Tracer_Red_F",""};
 };
 
-class ION_UAV_02_lxWS;
 class CLASS(SOF_UAV_02_GM6) : ION_UAV_02_lxWS {
 	displayName = "Roshanak AP-5 (Lynx)";
     SCOPE_DLC;
