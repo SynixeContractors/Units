@@ -16,13 +16,14 @@ class CLASS(O_Boat_Transport_SOF_02_F): I_C_Boat_Transport_02_F {
     EMPTY_VEHICLE_INVENTORY;
 };
 
-class O_SFIA_Heli_EC_02_RF;
-class CLASS(O_Heli_EC_SOF_F): O_SFIA_Heli_EC_02_RF {
+class I_Heli_EC_02_RF;
+class CLASS(O_Heli_EC_SOF_F): I_Heli_EC_02_RF {
     displayName = "RAI-360M Cougar";
     SCOPE_DLC;
+    side = 0;
     faction = QCLASS(O_SOF);
     crew = QCLASS(SOF_O_Helipilot_wd);
-	textureList[] = {"camo_5",1};
+	textureList[] = {"Olive",1};
     typicalCargo[] = {QCLASS(SOF_O_Helicrew_wd)};
     EMPTY_VEHICLE_INVENTORY;
 };
