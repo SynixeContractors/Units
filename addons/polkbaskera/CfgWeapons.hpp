@@ -24,7 +24,6 @@ class CfgWeapons {
     };
 
     // Spotter Ak-12 ELCAN
-    class arifle_AK12U_F;
     class arifle_AK12U_Elcan : arifle_AK12U_F {
         scope = 1;
         class LinkedItems {

@@ -11,7 +11,6 @@ class CLASS(B_Carryall_green_F_AT): B_Carryall_green_F {
     };
 };
 
-class B_Carryall_green_F;
 class CLASS(B_Carryall_green_F_DMO): B_Carryall_green_F {
     dlc = QUOTE(PREFIX); 
     scope = 1; 

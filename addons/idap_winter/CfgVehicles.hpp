@@ -10,7 +10,6 @@ class CfgVehicles {
         editorPreview = QPATHTOF(previews\CLASS(C_IDAP_Man_AidWorker_01_Winter).jpg);
     };
 
-    class C_IDAP_Man_AidWorker_01_F;
     class CLASS(C_IDAP_Man_AidWorker_02_Winter): C_IDAP_Man_AidWorker_01_F {
         editorSubcategory = QCLASS(men_winter);
         displayName = "Aid Worker (Gorka) 2";
@@ -21,7 +20,6 @@ class CfgVehicles {
         editorPreview = QPATHTOF(previews\CLASS(C_IDAP_Man_AidWorker_02_Winter).jpg);
     };
 
-    class C_IDAP_Man_AidWorker_01_F;
     class CLASS(C_IDAP_Man_AidWorker_03_Winter): C_IDAP_Man_AidWorker_01_F {
         editorSubcategory = QCLASS(men_winter);
         displayName = "Aid Worker (Gorka) 3";
@@ -33,7 +31,6 @@ class CfgVehicles {
         editorPreview = QPATHTOF(previews\CLASS(C_IDAP_Man_AidWorker_03_Winter).jpg);
     };
 
-    class C_IDAP_Man_AidWorker_01_F;
     class CLASS(C_IDAP_Man_AidWorker_04_Winter): C_IDAP_Man_AidWorker_01_F {
         editorSubcategory = QCLASS(men_winter);
         displayName = "Aid Worker (Gorka) 4";

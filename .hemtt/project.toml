@@ -21,8 +21,3 @@ workshop = [
     "646999497", # Theseus Services
     "2752324758", # Gorkas 'n' Gear
 ]
-
-[files]
-include = [
-    "abramia_co.paa"
-]

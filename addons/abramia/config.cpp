@@ -34,27 +34,5 @@ class CfgFactionClasses {
     };
 };
 
-class CfgVehicles {
-    class FlagCarrier_Asym;
-    class CLASS(Flag_Abramia): FlagCarrier_Asym {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Flag (Abramia)";
-        author = "Brett Harrison";
-        class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOF(data\abramia_co.paa)));
-        };
-    };
-    class CLASS(Flag_Protectorate): FlagCarrier_Asym {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Flag (Protectorate of Abramia)";
-        author = "Brett Harrison";
-        class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOF(data\protectorate_co.paa)));
-        };
-    };
-};
-
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
