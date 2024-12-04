@@ -4,7 +4,7 @@ class CLASS(SOF_O_Rifleman_wd): CLASS(Base_OPFOR) {
     editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_wd).jpg);
     SCOPE_DLC;
     genericNames = "EnochMen";
-    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};    
+    identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
     faction = QCLASS(O_SOF);
     weapons[] = {"arifle_Mk20C_rds", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "hgun_Rook40_F", "Throw", "Put"};

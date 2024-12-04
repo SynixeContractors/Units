@@ -106,6 +106,7 @@ class CfgPatches {
             "data_f_lxWS_Loadorder",
             "tacu_main",
         };
+        skipWhenMissingDependencies = 1;
         authors[] = {"Thomas Watson"};
         VERSION_CONFIG;
     };
