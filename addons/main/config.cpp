@@ -17,3 +17,5 @@ class CfgEditorSubcategories {
         displayName = "Men (Winter)";
     };
 };
+
+#include "CfgVehicles.hpp"

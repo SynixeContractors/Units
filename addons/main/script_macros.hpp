@@ -3,6 +3,10 @@
 #define TRIPLES(var1,var2,var3) ##var1##_##var2##_##var3
 #define ADDON DOUBLES(PREFIX,COMPONENT)
 
+
+// Macro
+#define MACRO_SENSITIVITY sensitivity = 6
+
 // Main
 #define QUOTE(var1) #var1
 #define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
