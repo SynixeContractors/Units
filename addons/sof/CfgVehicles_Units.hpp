@@ -84,6 +84,8 @@ class CLASS(SOF_O_Medic_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Combat Life Saver";
     editorPreview = QPATHTOF(previews\CLASS(SOF_O_Medic_wd).jpg);
     icon = "iconManMedic";
+    attendant = 1;
+    role = "CombatLifeSaver";
     weapons[] = {"arifle_Velko_xps3", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_xps3", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {R6("35Rnd_556x45_Velko_reload_tracer_red_lxWS"), R2("16Rnd_9x21_Mag"),"MiniGrenade", "SmokeShell", "SmokeShellRed", "SmokeShellPurple"};
