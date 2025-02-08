@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_main"};
-        author = "AUTHOR";
+        author = "Synixe Contractors";
         VERSION_CONFIG;
     };
 };
