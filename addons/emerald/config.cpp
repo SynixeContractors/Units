@@ -13,7 +13,10 @@ class CfgPatches {
             QCLASS(Emerald_Offroad_Comms),
             QCLASS(Emerald_Offroad_Covered),
             QCLASS(Emerald_Heli),
-            QCLASS(Emerald_Pickup)
+            QCLASS(Emerald_Pickup),
+            QCLASS(Flag_Emerald),
+            QCLASS(Emerald_Civ),
+            QCLASS(Emerald_Civ_Camera)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -32,11 +35,15 @@ class CfgPatches {
     };
 };
 
+#include "CfgEventHandlers.hpp"
+
 class CfgVehicles {
     #include "CfgVehicles_Props.hpp"
     #include "CfgVehicles_Units.hpp"
     #include "CfgVehicles_Vehicles.hpp"
 };
+
+#include "CfgGroups.hpp"
 
 class CfgWeapons {
     class H_Beret_gen_F;
@@ -54,6 +61,13 @@ class CfgFactionClasses {
         curatorScope = 2;
         displayName = "Gendarme d’Émeraude";
         side = 1;
+        priority = 1;
+    };
+    class CLASS(C_Emerald) {
+        scope = 2;
+        curatorScope = 2;
+        displayName = "Civilians (d’Émeraude)";
+        side = 3;
         priority = 1;
     };
 };

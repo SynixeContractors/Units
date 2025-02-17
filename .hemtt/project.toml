@@ -14,8 +14,12 @@ workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE3
     "2369477168", # ADT
-    "3033967666", # Theseus Units
+    # "3033967666", # Theseus Units
     "646999497", # Theseus Services
+    "1779063631", # Zeus Enhanced
+]
+parameters = [
+    "-mod=\"F:\\@theseus_units\""
 ]
 
 [hemtt.launch.aegis]
