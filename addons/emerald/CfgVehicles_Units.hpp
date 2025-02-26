@@ -2,6 +2,7 @@ class B_GEN_Soldier_F;
 class CLASS(Emerald_Soldier): B_GEN_Soldier_F {
     identityTypes[] = {"LanguageFRE_F","Head_Tanoan"};
     faction = QCLASS(B_Emerald);
+    genericNames = "TanoanMen";
 };
 class B_GEN_Soldier_RF;
 class CLASS(Emerald_Soldier_Light): B_GEN_Soldier_RF {
@@ -37,6 +38,7 @@ class CLASS(Emerald_Civ): C_man_1 {
     SCOPE_DLC;
     identityTypes[] = {"LanguageFRE_F","Head_Tanoan"};
     faction = QCLASS(C_Emerald);
+    genericNames = "TanoanMen";
 };
 
 class CLASS(Emerald_Civ_Camera): CLASS(Emerald_Civ) {
