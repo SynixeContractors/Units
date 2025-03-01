@@ -135,6 +135,11 @@ private _pistols = [
     ], [["Aegis_10Rnd_570x28_RP57_Mag", 10]]]
 ];
 
+private _vests = [
+    "synixe_Hidden_Ballistic_Vest_02",
+    "synixe_Hidden_Ballistic_Vest_01"
+];
+
 private _loadout = getUnitLoadout _unit;
 
 if (random 1 > 0.5) then {
@@ -166,6 +171,16 @@ _pistolMag insert [1, [ceil random 5]];
 (_uniformContainer select 1) pushBack _pistolMag;
 
 _loadout set [3, _uniformContainer];
+
+private _vest = _vests call BIS_fnc_selectRandom;
+private _vestContainer = _loadout select 4;
+if (_vestContainer isEqualTo []) then {
+    _vestContainer = [_vest, []];
+} else {
+    _vestContainer set [0, _vest];
+};
+
+_loadout set [4, _vestContainer];
 
 _unit setUnitLoadout _loadout;
 
