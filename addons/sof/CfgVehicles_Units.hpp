@@ -1,7 +1,7 @@
 class CLASS(Base_OPFOR);
 class CLASS(SOF_O_Rifleman_wd): CLASS(Base_OPFOR) {
     displayName = "Rifleman";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_wd);
     SCOPE_DLC;
     genericNames = "EnochMen";
     identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
@@ -19,7 +19,7 @@ class CLASS(SOF_O_Rifleman_wd): CLASS(Base_OPFOR) {
 
 class CLASS(SOF_O_SquadLeader_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Squad Leader";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_SquadLeader_wd).jpg);
+    PREVIEW(SOF_O_SquadLeader_wd);
     icon = "iconManLeader";
     weapons[] = {"arifle_Velko_MRCO", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_MRCO", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
@@ -31,7 +31,7 @@ class CLASS(SOF_O_SquadLeader_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Grenadier_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Grenadier";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Grenadier_wd).jpg);
+    PREVIEW(SOF_O_Grenadier_wd);
     role = "Grenadier";
     weapons[] = {"arifle_Mk20_GL_saber", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20_GL_saber", "hgun_Rook40_F", "Throw", "Put"};
@@ -43,7 +43,7 @@ class CLASS(SOF_O_Grenadier_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Autorifleman_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Autorifleman";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Autorifleman_wd).jpg);
+    PREVIEW(SOF_O_Autorifleman_wd);
     icon = "iconManMG";
     role = "MachineGunner";
     weapons[] = {"LMG_03_saber", "Throw", "Put"};
@@ -56,7 +56,7 @@ class CLASS(SOF_O_Autorifleman_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_LAT_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Rifleman (AT)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_LAT_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_LAT_wd);
     icon = "iconManAT";
     role = "MissileSpecialist";
     weapons[] = {"arifle_Mk20C_rds", "launch_RPG32_green_F", "Throw", "Put"};
@@ -70,7 +70,7 @@ class CLASS(SOF_O_Rifleman_LAT_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Marksman_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Marksman";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Marksman_wd).jpg);
+    PREVIEW(SOF_O_Marksman_wd);
     role = "Marksman";
     weapons[] = {"srifle_DMR_06_olive_mos", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"srifle_DMR_06_olive_mos", "Binocular", "Throw", "Put"};
@@ -82,7 +82,7 @@ class CLASS(SOF_O_Marksman_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Medic_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Combat Life Saver";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Medic_wd).jpg);
+    PREVIEW(SOF_O_Medic_wd);
     icon = "iconManMedic";
     attendant = 1;
     role = "CombatLifeSaver";
@@ -97,7 +97,7 @@ class CLASS(SOF_O_Medic_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_TeamLeader_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Team Leader";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_TeamLeader_wd).jpg);
+    PREVIEW(SOF_O_TeamLeader_wd);
     icon = "iconManLeader";
     weapons[] = {"arifle_Mk20_GL_xps3", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20_GL_xps3", "hgun_Rook40_F", "Binocular", "Throw", "Put"};
@@ -109,7 +109,7 @@ class CLASS(SOF_O_TeamLeader_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_HeavyGunner_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Heavy Gunner";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_HeavyGunner_wd).jpg);
+    PREVIEW(SOF_O_HeavyGunner_wd);
     icon = "iconManMG";
     role = "MachineGunner";
     weapons[] = {"MMG_02_black_bipod", "Throw", "Put"};
@@ -122,7 +122,7 @@ class CLASS(SOF_O_HeavyGunner_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_AHG_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Asst. Heavy Gunner";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_AHG_wd).jpg);
+    PREVIEW(SOF_O_AHG_wd);
     role = "Assistant";
     weapons[] = {"arifle_Velko_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_rds", "Throw", "Put"};
@@ -135,7 +135,7 @@ class CLASS(SOF_O_AHG_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_AAR_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Asst. Autorifleman";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_AAR_wd).jpg);
+    PREVIEW(SOF_O_AAR_wd);
     role = "Assistant";
     weapons[] = {"arifle_Velko_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_rds", "Throw", "Put"};
@@ -148,7 +148,7 @@ class CLASS(SOF_O_AAR_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_AT_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Rifleman (Heavy AT)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_AT_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_AT_wd);
     icon = "iconManAT";
     role = "MissileSpecialist";
     weapons[] = {"SMG_03C_TR_rds", "launch_O_Vorona_green_F", "Throw", "Put"};
@@ -162,7 +162,7 @@ class CLASS(SOF_O_Rifleman_AT_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_AA_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Missile Specialist (AA)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_AA_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_AA_wd);
     icon = "iconManAT";
     role = "MissileSpecialist";
     weapons[] = {"SMG_03C_TR_rds", "launch_B_Titan_olive_F", "Throw", "Put"};
@@ -176,7 +176,7 @@ class CLASS(SOF_O_Rifleman_AA_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Engineer_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Engineer";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Engineer_wd).jpg);
+    PREVIEW(SOF_O_Engineer_wd);
     icon = "iconManEngineer";
     role = "Engineer";
     weapons[] = {"arifle_Velko_rds", "hgun_Rook40_F", "Throw", "Put"};
@@ -190,7 +190,7 @@ class CLASS(SOF_O_Engineer_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_dmo_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Demolitions Specialist";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_dmo_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_dmo_wd);
     icon = "iconManExplosive";
     role = "Sapper";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -204,7 +204,7 @@ class CLASS(SOF_O_Rifleman_dmo_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_RadioOperator_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Radio Operator";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_RadioOperator_wd).jpg);
+    PREVIEW(SOF_O_RadioOperator_wd);
     role = "RadioOperator";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -217,7 +217,7 @@ class CLASS(SOF_O_RadioOperator_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_AR2_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "UAV Operator (AR-2)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_AR2_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_AR2_wd);
     role = "SpecialOperative";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -229,7 +229,7 @@ class CLASS(SOF_O_Rifleman_AR2_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_AP5_Mini_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "UAV Operator (AP-5 Minimi)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_AP5_Mini_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_AP5_Mini_wd);
     role = "SpecialOperative";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -242,7 +242,7 @@ class CLASS(SOF_O_Rifleman_AP5_Mini_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_AP5_Lynx_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "UAV Operator (AP-5 Lynx)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_AP5_Lynx_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_AP5_Lynx_wd);
     role = "SpecialOperative";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -255,7 +255,7 @@ class CLASS(SOF_O_Rifleman_AP5_Lynx_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Sniper_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Sniper";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Sniper_wd).jpg);
+    PREVIEW(SOF_O_Sniper_wd);
     role = "Marksman";
     weapons[] = {"srifle_GM6_LRPS", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
     respawnWeapons[] = {"srifle_GM6_LRPS", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
@@ -267,7 +267,7 @@ class CLASS(SOF_O_Sniper_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Spotter_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Spotter";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Spotter_wd).jpg);
+    PREVIEW(SOF_O_Spotter_wd);
     role = "Marksman";
     weapons[] = {"arifle_Velko_MRCO", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_MRCO", "hgun_Rook40_F", "Rangefinder", "Throw", "Put"};
@@ -279,7 +279,7 @@ class CLASS(SOF_O_Spotter_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_SG_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Rifleman (Shotgun)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_SG_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_SG_wd);
     weapons[] = {"sgun_aa40_xps3", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_aa40_xps3", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {R7("8Rnd_12Gauge_AA40_Pellets_lxWS"), R2("16Rnd_9x21_Mag"), R2("SmokeShell"), "MiniGrenade"};
@@ -290,7 +290,7 @@ class CLASS(SOF_O_Rifleman_SG_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Helipilot_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Helicopter Pilot";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Helipilot_wd).jpg);
+    PREVIEW(SOF_O_Helipilot_wd);
     role = "Crewman";
     weapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
@@ -302,7 +302,7 @@ class CLASS(SOF_O_Helipilot_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Helicrew_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Helicopter Crew";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Helicrew_wd).jpg);
+    PREVIEW(SOF_O_Helicrew_wd);
     role = "Crewman";
     weapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
@@ -314,7 +314,7 @@ class CLASS(SOF_O_Helicrew_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Crewman_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Crewman";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Crewman_wd).jpg);
+    PREVIEW(SOF_O_Crewman_wd);
     role = "Crewman";
     weapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_TR_rds", "Throw", "Put"};
@@ -326,7 +326,7 @@ class CLASS(SOF_O_Crewman_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Rifleman_exp_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Mine Specialist";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Rifleman_exp_wd).jpg);
+    PREVIEW(SOF_O_Rifleman_exp_wd);
     icon = "iconManExplosive";
     role = "Sapper";
     weapons[] = {"arifle_Velko_xps3", "Throw", "Put"};
@@ -340,7 +340,7 @@ class CLASS(SOF_O_Rifleman_exp_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Support_HMG_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Gunner (HMG)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Support_HMG_wd).jpg);
+    PREVIEW(SOF_O_Support_HMG_wd);
     role = "Assistant";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -353,7 +353,7 @@ class CLASS(SOF_O_Support_HMG_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_Support_AMG_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Asst. Gunner (HMG)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_Support_AMG_wd).jpg);
+    PREVIEW(SOF_O_Support_AMG_wd);
     role = "Assistant";
     weapons[] = {"arifle_Velko_MRCO", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Velko_MRCO", "Throw", "Put"};
@@ -366,7 +366,7 @@ class CLASS(SOF_O_Support_AMG_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_AAT_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Asst. Heavy AT";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_AAT_wd).jpg);
+    PREVIEW(SOF_O_AAT_wd);
     role = "Assistant";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
@@ -379,7 +379,7 @@ class CLASS(SOF_O_AAT_wd): CLASS(SOF_O_Rifleman_wd) {
 
 class CLASS(SOF_O_AAA_wd): CLASS(SOF_O_Rifleman_wd) {
     displayName = "Asst. Missile Specialist (AA)";
-    editorPreview = QPATHTOF(previews\CLASS(SOF_O_AAA_wd).jpg);
+    PREVIEW(SOF_O_AAA_wd);
     role = "Assistant";
     weapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_rds", "Throw", "Put"};

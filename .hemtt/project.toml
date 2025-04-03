@@ -32,9 +32,8 @@ workshop = [
     "2684335735", # Revolución
 ]
 
-[hemtt.launch.jca_carrier]
+[hemtt.launch.mgp]
 extends = "default"
 workshop = [
-    "3302425224", # JCA MP5
-    "2989752481", # JCA Modular Carrier
+    "2871002081" # MilGearPack, Simpel's Edit
 ]
