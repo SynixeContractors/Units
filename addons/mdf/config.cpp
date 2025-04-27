@@ -9,6 +9,7 @@ class CfgPatches {
             QCLASS(O_MDF_Medic),
             QCLASS(O_MDF_Engineer),
             QCLASS(O_MDF_TeamLeader),
+            QCLASS(Flag_Malden),
         };
         weapons[] = {
             QCLASS(O_MDF_HK416),
